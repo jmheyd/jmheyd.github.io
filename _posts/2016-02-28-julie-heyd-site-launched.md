@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Julie Heyd Launches Site"
+title: "First Post"
 date: 2016-02-28
 ---
 
