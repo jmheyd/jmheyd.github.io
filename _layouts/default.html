@@ -1,25 +1,31 @@
 
-<html>
-  <head>
-    <title>{{ page.title }}</title>
-    <link href='https://fonts.googleapis.com/css?family=Crushed' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
-    <link rel="stylesheet" href="css/responsive.css">
-  </head>
-	<body>
-	  <div class="entire">
-    {{ content }}
-    
-      <div id="footer">
-	        <p><a href="mailto:heydjm@comcast.net">heydjm@comcast.net</a> | 1447 Idaho Ave W, Falcon Heights, MN 55108 | Tel: (651) 642-9562</p>
-	    </div>
-	    <div id="social">
-	    	<a href="http://github.com/jmheyd"><img src="images/GitHub-Mark-32px.png" height="32px" width="32px"/></a>
-	    	<a href="http://www.linkedin.com/in/juliemheyd"><img src="images/linkedin-circle.png" height="32px" width="32px"/></a>
-      </div>
-    </div>
-	</body>
-</html>
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+		</head>
+		<body>
+			<nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav>
+			<div class="container">
+			
+			{{ content }}
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
+	        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>
+Take note of the {{ 
