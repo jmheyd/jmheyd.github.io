@@ -1,4 +1,6 @@
-
+.background {
+	background-color: #E0EBEB;
+}
 
 .entire {
 	margin-left: 250px;
@@ -13,21 +15,32 @@
 
 #name {
 	color: #669900;
-	font-size: 50px;
+	font-size: 60px;
 	padding-bottom: 60px;
 	text-align: center;
-	font-family: 'Pacifico', cursive;
+	font-family: 'Crushed', cursive;
 	display: block;
 	position: relative;
 	bottom: -50px;
 }
+
 #pic {
 	text-align: center;
+	padding-bottom: 10px;
 }
 
+#social {
+	text-align: center;
+	/*(margin-top: 10px;*/
+	/*padding-top: 10px;*/
+	/*height: 60px;*/
+}
+
+/*
 .row {
 	padding-bottom: 10px;
 }
+*/
 
 .addline {
 	padding-bottom: 10px;
@@ -52,7 +65,10 @@
 }
 
 p {
-	text-indent: 25px;
+/*	text-indent: 25px;*/
+	text-align: center;
+	font-size: 13px;
+  font-family: 'Droid Serif', serif;
 }
 
 h2 {
@@ -71,19 +87,24 @@ a {
 a:visited {
     color:#669900;
 }
+
+
 #footer {
-	position: relative;
-	height: 50px;
-	background-color: #E0EBEB;
-	clear: both;
-	font-size: 15px;
-    font-family: 'Droid Serif', serif;
+	/*display: inline;*/
+	/*position: relative;*/
+	/*height: 30px;*/
+	/*background-color: #E0EBEB;*/
+	/*clear: both;*/
+	font-size: 12px;
+  font-family: 'Droid Serif', serif;
 	color: #669900;
 	text-align: center;
 }
-#footer p {
+
+#footer p:first-of-type{
 	position: relative;
-	padding-top: 15px;
-}
+	padding-top: 25px;
+
+
 
 
