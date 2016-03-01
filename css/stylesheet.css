@@ -105,7 +105,11 @@ a:visited {
 	position: relative;
 	padding-top: 25px;
 
-.resume {
+h2.resume {
+	text-align: left;
+}
+
+p.resume {
 	text-align: left;
 }
 
