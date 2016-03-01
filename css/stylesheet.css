@@ -1,7 +1,7 @@
 .background {
 	background-color: #E0EBEB;
 }
-
+/*
 .entire {
 	margin-left: 50px;
 	margin-right: 50px;
@@ -12,7 +12,7 @@
 	background-color: #E0EBEB;
 	font-family: 'Droid Serif', serif;
 }
-
+*/
 #name {
 	color: #669900;
 	font-size: 60px;
@@ -24,23 +24,10 @@
 	bottom: -50px;
 }
 
-#pic {
-	text-align: center;
-	padding-bottom: 10px;
-}
 
 #social {
 	text-align: center;
-	/*(margin-top: 10px;*/
-	/*padding-top: 10px;*/
-	/*height: 60px;*/
 }
-
-/*
-.row {
-	padding-bottom: 10px;
-}
-*/
 
 .addline {
 	padding-bottom: 10px;
@@ -65,7 +52,6 @@
 }
 
 p {
-/*	text-indent: 25px;*/
 	text-align: center;
 	font-size: 13px;
   font-family: 'Droid Serif', serif;
@@ -90,11 +76,6 @@ a:visited {
 
 
 #footer {
-	/*display: inline;*/
-	/*position: relative;*/
-	/*height: 30px;*/
-	/*background-color: #E0EBEB;*/
-	/*clear: both;*/
 	font-size: 12px;
   font-family: 'Droid Serif', serif;
 	color: #669900;
@@ -105,7 +86,15 @@ a:visited {
 	position: relative;
 	padding-top: 25px;
 
-#resume {
+#resume p {
+	text-align: left;
+}
+
+#resume h2 {
+	text-align: left;
+}
+
+#resume h1 {
 	text-align: left;
 }
 
