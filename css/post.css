@@ -7,3 +7,9 @@ p {
 h2 {
 	text-align: left;
 }
+
+body {
+    margin: 60px auto;
+    width: 70%;
+    background-color: #E0EBEB;
+}
