@@ -9,3 +9,19 @@ h2 {
 h1 {
 	text-align: left;
 }
+
+#social {
+	text-align: center;
+}
+
+#footer {
+	font-size: 12px;
+  font-family: 'Droid Serif', serif;
+	color: #669900;
+	text-align: center;
+}
+
+#footer p:first-of-type{
+	position: relative;
+	padding-top: 25px;
+}
