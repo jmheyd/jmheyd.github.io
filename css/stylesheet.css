@@ -24,11 +24,6 @@
 	bottom: -50px;
 }
 
-#resume {
-    text-align; center;
-}
-
-
 #pic {
 	text-align: center;
 	padding-bottom: 10px;
@@ -109,6 +104,11 @@ a:visited {
 #footer p:first-of-type{
 	position: relative;
 	padding-top: 25px;
+
+.resume {
+	text-align: left;
+}
+
 
 
 
