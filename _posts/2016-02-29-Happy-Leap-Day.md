@@ -1,3 +1,10 @@
+---
+layout: post
+title: "First Post"
+date: 2016-02-29
+---
+
+
 Happy Leap Day!! We get a whole extra day this year.
 
 I'm spending it trying to create a CLI gem for my final Object Oriented Ruby project for Learn-Verified.
