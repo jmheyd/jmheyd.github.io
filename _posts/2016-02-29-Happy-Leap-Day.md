@@ -1,9 +1,8 @@
 ---
 layout: post
-title: "First Post"
+title: "Happy Leap Day"
 date: 2016-02-29
 ---
-
 
 Happy Leap Day!! We get a whole extra day this year.
 
