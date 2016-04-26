@@ -28,7 +28,18 @@ h1 {
     font-family: 'Crushed', cursive;
 }
 
-/*button {
+.button{
+    display:block;
+    width:100px;
+    height:100px;
+    border-radius:50px;
+    font-size:20px;
+    color:#fff;
+    line-height:100px;
+    text-align:center;
+    background:#669900;
+}
+/*.button {
     font-size: 1.5em;
     border-radius: 15px;
     background-color: #669900;
@@ -39,7 +50,7 @@ h1 {
     text-decoration: none;
     display: inline-block;
     width: 15%;
-}
+}*/
 
 li button {
     color: white;
