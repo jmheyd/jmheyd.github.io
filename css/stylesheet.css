@@ -107,10 +107,16 @@ a:visited {
     color:#E0EBEB;
     line-height:75px;
     text-align:center;
-    background:#006699;
+    background:#006666;
 }
 
-a.button {
+a.button1 {
+	color :#E0EBEB;
+}
+a.button2 {
+	color :#E0EBEB;
+}
+a.button3 {
 	color :#E0EBEB;
 }
 
