@@ -28,6 +28,10 @@ h1 {
     font-family: 'Crushed', cursive;
 }
 
+.button {
+    font-size: 1.5em;
+    border-radius: 12px;
+}
 
 p {
     font-size: 1.5em;
