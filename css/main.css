@@ -28,7 +28,7 @@ h1 {
     font-family: 'Crushed', cursive;
 }
 
-.button {
+button {
     font-size: 2em;
     border-radius: 15px;
     background-color: #669900;
