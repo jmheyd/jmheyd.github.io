@@ -86,6 +86,10 @@ a:visited {
     background:#669900;
 }
 
+a.button {
+	color :white;
+}
+
 #resume p {
 	text-align: left;
 }
