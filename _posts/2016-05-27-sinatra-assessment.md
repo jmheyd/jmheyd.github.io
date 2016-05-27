@@ -17,14 +17,14 @@ I just finished my Sinatra assessment this past week. For this project in the Le
 </ul>
 
 <h2>What is an MVC Sinatra application?</h2>
-<p>MVC stands for Model-View-Controller. It is a programming model that separates these three different parts. So in my Sinatra app, I have an app folder containing three folders: models, views and controllers.</p>
+<p>MVC stands for Model-View-Controller. It is a programming model that separates these three different parts. So in my Sinatra app, I have an app folder containing three folders: models, views and controllers. Sinatra is a web application library written in Ruby.</p>
 
 <p>Models - where I define my classes and their associations.</p>
 <p>Views - where I determine how the data will be displayed.</p>
 <p>Controllers - the code that reads the data from the view and sends data back to the model.</p>
 
 <h2>What is ActiveRecord?</h2>
-<p>ActiveRecord is a Ruby library that works with relational SQL databases, in our case, sqlite3. It provides Object Relational Mapping (ORM)- a single Ruby object maps to a database table. In my project, College Tour Planner, I have a Ruby class College and a College database table.</p>
+<p>ActiveRecord is a Ruby library that works with relational SQL databases, in our case, sqlite3. It provides Object Relational Mapping (ORM)- a single Ruby object maps to a database table. For example, in my project, College Tour Planner, I have a Ruby class College and a College database table.</p>
 
 <h2>Multiple Models</h2>
 <p>My project has a College model and a User model.</p>
