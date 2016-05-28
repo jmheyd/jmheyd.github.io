@@ -28,7 +28,7 @@ For this project in the Learn-Verified curriculum, we had to build an MVC Sinatr
 <h3>Multiple Models</h3>
 <p>My project has a College model and a User model (and a model that joins them).</p>
 
-<h3>The <em>relationship</em></h3>
+<h3>The <em>has_many </em>relationship</h3>
 <p>In my project, a user can make a list of colleges they would like to tour. A user can have many colleges on their list. Also, a college can have have users who add the college to their list.</p>
 
 <h3>User Accounts</h3>
