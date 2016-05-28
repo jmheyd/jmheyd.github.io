@@ -48,3 +48,6 @@ For this project in the Learn-Verified curriculum, we had to build an MVC Sinatr
 <p>The next challenge was just not getting confused in all the routes. There is a lot of back and forth, and sometimes it got confusing to keep it all straight.</p>
 
 <p>When I finally got it working, I was grateful for the additional HTML/CSS classes I had taken with Girl Develop It! (GDI) Minneapolis. The templates and files I got from those classes helped me add some of my own style to my web application</p>
+
+<iframe src="https://player.vimeo.com/video/168476604" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+<p><a href="https://vimeo.com/168476604">Julie_Heyd_Sinatra_Assessment</a> from <a href="https://vimeo.com/user6101312">Julie Heyd</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
