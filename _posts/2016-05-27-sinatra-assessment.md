@@ -8,7 +8,7 @@ For this project in the Learn-Verified curriculum, we had to build an MVC Sinatr
 
 <ul>
 	<li>must use ActiveRecord</li>
-	<li>must use Multiple Models</li>
+	<li>must use multiple Models</li>
 	<li>must have at least one has_many relationship</li>
 	<li>must have User accounts, and only the user who created the content can modify the content</li>
 	<li>must have model validations so that bad data isn't created</li>
