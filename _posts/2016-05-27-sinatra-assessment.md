@@ -29,7 +29,7 @@ For this project in the Learn-Verified curriculum, we had to build an MVC Sinatr
 <p>My project has a College model and a User model (and a model that joins them).</p>
 
 <h3>The <em>has_many</em> relationship</h3>
-<p>In my project, a user can make a list of colleges they would like to tour. A user can have many colleges on their list. Also, a college can have have users who add the college to their list.</p>
+<p>In my project, a user can make a list of colleges they would like to tour. A user can have many colleges on their list. Also, a college can have many users who add the college to their list.</p>
 
 <h3>User Accounts</h3>
 <p>Users must sign up and create an account to create a college list. Nobody else can view their list or modify their list. In addition, users may leave notes about each college that only they can view, edit or delete.</p>
