@@ -4,36 +4,35 @@ title: "Sinatra Assessment for Learn-Verified"
 date: 2016-05-27
 ---
 
-I just finished my Sinatra assessment this past week. For this project in the Learn-Verified curriculum, we had to do the following:
+I just finished my Sinatra assessment this past week. For this project in the Learn-Verified curriculum, we had to build an MVC Sinatra web application with the following requirements:
 
 <ul>
-	<li>Build an MVC Sinatra application.</li>
-	<li>Use ActiveRecord</li>
-	<li>Use Multiple Models</li>
-	<li>Use at least one has_many relationship.</li>
-	<li>The app must have User accounts; only the user who created the content can modify the content.</li>
-	<li>Models must have validations so that bad data isn't created.</li>
-	<li>Validation failures must be shown to the user with error messages.</li>
+	<li>must use ActiveRecord</li>
+	<li>must use Multiple Models</li>
+	<li>have at least one has_many relationship</li>
+	<li>must have User accounts, and only the user who created the content can modify the content</li>
+	<li>must have model validations so that bad data isn't created</li>
+	<li>must show validation failures to the user with error messages.</li>
 </ul>
 
 <h2>What is an MVC Sinatra application?</h2>
-<p>MVC stands for Model-View-Controller. It is a programming model that separates these three different parts. So in my Sinatra app, I have an app folder containing three folders: models, views and controllers. Sinatra is a web application library written in Ruby.</p>
+<p>Sinatra is a web application library written in Ruby. MVC stands for Model-View-Controller. It is a programming model that separates these three different parts. So in my Sinatra app, I have an app folder containing three folders: models, views and controllers. </p>
 
 <p>Models - where I define my classes and their associations.</p>
 <p>Views - where I determine how the data will be displayed.</p>
-<p>Controllers - the code that reads the data from the view and sends data back to the model.</p>
+<p>Controllers - where I define how the data is read from the view and sent back to the model.</p>
 
 <h2>What is ActiveRecord?</h2>
-<p>ActiveRecord is a Ruby library that works with relational SQL databases, in our case, sqlite3. It provides Object Relational Mapping (ORM)- a single Ruby object maps to a database table. For example, in my project, College Tour Planner, I have a Ruby class College and a College database table.</p>
+<p>ActiveRecord is a Ruby library that works with relational SQL databases, in our case, sqlite3. It provides Object Relational Mapping (ORM); a single Ruby object maps to a database table. For example, in my project, College Tour Planner, I have a College object and a College database table.</p>
 
 <h2>Multiple Models</h2>
-<p>My project has a College model and a User model.</p>
+<p>My project has a College model and a User model (and a model that joins them).</p>
 
 <h2>The has_many relationship</h2>
 <p>In my project, a user is making a list of colleges they would like to tour to help in deciding which college they would like to attend. A user can have many colleges on their list. Also, a college can have have users who add the college to their list.</p>
 
 <h2>User Accounts</h2>
-<p>Users must sign up and create an account to create a college list. Nobody else can view their list or modify their lsit. In addition, users my leave notes about each college that only they can view, edit or delete.</p>
+<p>Users must sign up and create an account to create a college list. Nobody else can view their list or modify their list. In addition, users may leave notes about each college that only they can view, edit or delete.</p>
 
 <h2>Data Validations</h2>
 <p>A user must enter all the proper information to create an account. When adding a new college to the database, all fields in the form must be filled out.<p>
