@@ -23,12 +23,12 @@ For this project in the Learn-Verified curriculum, we had to build an MVC Sinatr
 <p>Controllers - where I define how the data is read from the view and sent back to the model.</p>
 
 <h3>What is ActiveRecord?</h3>
-<p>ActiveRecord is a Ruby library that works with relational SQL databases, in our case, sqlite3. It provides Object Relational Mapping (ORM); a single Ruby object maps to a database table. For example, in my project, College Tour Planner, I have a College object and a College database table.</p>
+<p>ActiveRecord is a Ruby library that works with relational SQL databases, in our case, sqlite3. It provides Object Relational Mapping (ORM); a single Ruby object maps to a database table. For example, in my project, College Tour Planner, I have a College object that maps to a colleges database table.</p>
 
 <h3>Multiple Models</h3>
 <p>My project has a College model and a User model (and a model that joins them).</p>
 
-<h3>The has_many relationship</h3>
+<h3>The <em>relationship</em></h3>
 <p>In my project, a user can make a list of colleges they would like to tour. A user can have many colleges on their list. Also, a college can have have users who add the college to their list.</p>
 
 <h3>User Accounts</h3>
