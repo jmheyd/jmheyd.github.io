@@ -16,7 +16,7 @@ For this project in the Learn-Verified curriculum, we had to build an MVC Sinatr
 </ul>
 
 <h3>What is an MVC Sinatra application?</h3>
-<p>Sinatra is a web application library written in Ruby. MVC stands for Model-View-Controller. It is a programming model that separates these three different parts. So in my Sinatra app, I have an app folder containing three folders: models, views and controllers. </p>
+<p>Sinatra is a web application library written in Ruby. MVC stands for Model-View-Controller, and it is a programming model that separates these three different parts. So in my Sinatra app, I have an app folder containing three folders: models, views and controllers. </p>
 
 <p>Models - where I define my classes and their associations.</p>
 <p>Views - where I determine how the data will be displayed.</p>
