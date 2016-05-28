@@ -3,11 +3,9 @@ body {
     width: 70%;
     background-color: #E0EBEB;
     font-family: 'Open Sans', sans-serif;
-   /* font-family: 'Montserrat', sans-serif;*/
 }
 nav ul, footer ul {
     font-family: 'Open Sans', sans-serif;
- /*   font-family: 'Montserrat', sans-serif;*/
     padding: 0px;
     list-style: none;
     font-weight: bold;
