@@ -1,0 +1,33 @@
+@media only screen and (max-width: 1300) {
+
+	#footer p {		
+		font-size: 55%;
+	}
+
+	#pic {
+		width: 100%;
+	}
+}
+
+
+@media only screen and (max-width: 400) {
+
+	.button1 {
+    width:25px;
+    height:25px;
+    font-size:10px;
+    line-height:25px;
+	}
+	.button2 {
+    width:25px;
+    height:25px;
+    font-size:10px;
+    line-height:25px;
+	}
+	.button3 {
+    width:25px;
+    height:25px;
+    font-size:10px;
+    line-height:25px;
+	}
+}

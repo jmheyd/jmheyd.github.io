@@ -1,0 +1,10 @@
+@media only screen and (max-width: 1300) {
+
+	#footer p {		
+		font-size: 55%;
+	}
+
+	#pic {
+		width: 100%;
+	}
+}
